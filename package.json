@@ -1,13 +1,39 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "A react example app that showcases react, babel, and webpack",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatMulvihill/reactjsfundamentals.git"
+  },
+  "author": "Patrick Mulvihill <pmulvihill01@manhattan.edu>",
   "dependencies": {
     "async": "~0.2.8",
+    "bootstrap": "^3.3.6",
     "express": "~3.2.4",
+    "jquery": "^3.0.0",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.5.2",
     "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "nodestart": "node server.js",
+    "production": "webpack -p",
+    "start": "webpack-dev-server --port $PORT --host $IP  --content-base build/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatMulvihill/reactjsfundamentals/issues"
+  },
+  "homepage": "https://github.com/PatMulvihill/reactjsfundamentals#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "html-webpack-plugin": "^2.21.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
