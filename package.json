@@ -10,6 +10,7 @@
   "author": "Patrick Mulvihill <pmulvihill01@manhattan.edu>",
   "dependencies": {
     "async": "~0.2.8",
+    "axios": "^0.13.1",
     "bootstrap": "^3.3.6",
     "express": "~3.2.4",
     "jquery": "^3.0.0",
